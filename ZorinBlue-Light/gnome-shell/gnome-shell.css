@@ -1997,11 +1997,12 @@ StScrollBar {
 .quick-menu-toggle .quick-toggle-arrow {
   padding: 6px 10.5px;
   border-width: 0;
-  border-color: #eaf0f6;
+  border-color: rgba(21, 166, 240, 0.3);
+  background-color: rgba(21, 166, 240, 0.08);
   transition-duration: 150ms; }
   .quick-menu-toggle .quick-toggle-arrow:checked {
     background-color: #1ebdfa;
-    border-color: #eaf0f6; }
+    border-color: rgba(21, 166, 240, 0.4); }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 12px 12px 0;
     border-left-width: 2px; }

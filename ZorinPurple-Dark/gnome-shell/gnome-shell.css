@@ -1957,8 +1957,8 @@ StScrollBar {
      to extend to the border */ }
   .quick-toggle:checked {
     background-gradient-direction: none;
-    background-gradient-start: #cbabf1;
-    background-gradient-end: #e3d6f8; }
+    background-gradient-start: rgba(216, 196, 241, 0.3);
+    background-gradient-end: rgba(216, 196, 241, 0.3); }
     .quick-toggle:checked:hover, .quick-toggle:checked:active {
       background-gradient-direction: none; }
   .quick-toggle > StBoxLayout {

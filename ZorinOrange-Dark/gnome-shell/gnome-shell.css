@@ -1957,8 +1957,8 @@ StScrollBar {
      to extend to the border */ }
   .quick-toggle:checked {
     background-gradient-direction: none;
-    background-gradient-start: rgba(252, 200, 180, 0.3);
-    background-gradient-end: rgba(252, 200, 180, 0.3); }
+    background-gradient-start: #ffb498;
+    background-gradient-end: #ffd5cb; }
     .quick-toggle:checked:hover, .quick-toggle:checked:active {
       background-gradient-direction: none; }
   .quick-toggle > StBoxLayout {
@@ -1997,12 +1997,11 @@ StScrollBar {
 .quick-menu-toggle .quick-toggle-arrow {
   padding: 6px 10.5px;
   border-width: 0;
-  border-color: rgba(252, 200, 180, 0.3);
-  background-color: rgba(252, 200, 180, 0.08);
+  border-color: #2e231f;
   transition-duration: 150ms; }
   .quick-menu-toggle .quick-toggle-arrow:checked {
     background-color: #fcc8b4;
-    border-color: rgba(252, 200, 180, 0.4); }
+    border-color: #2e231f; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 12px 12px 0;
     border-left-width: 2px; }

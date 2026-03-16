@@ -1294,7 +1294,7 @@ StScrollBar {
     color: #f91f1f; }
   .end-session-dialog .modal-dialog-linked-button:last-child {
     color: #f91f1f;
-    background-color: rgba(249, 31, 31, 0.18);
+    background-color: rgba(249, 31, 31, 0.075);
     font-weight: bold !important; }
     .end-session-dialog .modal-dialog-linked-button:last-child:focus {
       box-shadow: inset 0 0 0 2px rgba(249, 31, 31, 0.5) !important; }
@@ -1995,12 +1995,11 @@ StScrollBar {
 .quick-menu-toggle .quick-toggle-arrow {
   padding: 6px 10.5px;
   border-width: 0;
-  border-color: rgba(96, 98, 100, 0.3);
-  background-color: rgba(96, 98, 100, 0.08);
+  border-color: #eeeeee;
   transition-duration: 150ms; }
   .quick-menu-toggle .quick-toggle-arrow:checked {
     background-color: #616d76;
-    border-color: rgba(96, 98, 100, 0.4); }
+    border-color: #eeeeee; }
   .quick-menu-toggle .quick-toggle-arrow:ltr {
     border-radius: 0 12px 12px 0;
     border-left-width: 2px; }
